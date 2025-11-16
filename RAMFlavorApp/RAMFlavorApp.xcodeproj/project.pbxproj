@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {
+  };
+  objectVersion = 55;
+  objects = {
+
+/* Begin PBXProject section */
+    1D6058900D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1230;
+      };
+      buildConfigurationList = 1D6058910D05DD3E006BFB54 /* Build configuration list for PBXProject */;
+      compatibilityVersion = "Xcode 12.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1D6058920D05DD3F006BFB54;
+      productRefGroup = 1D6058930D05DD40006BFB54 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D6058940D05DD41006BFB54 /* RAMFlavorApp */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXNativeTarget section */
+    1D6058940D05DD41006BFB54 /* RAMFlavorApp */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D6058950D05DD42006BFB54 /* Build configuration list for PBXNativeTarget "RAMFlavorApp" */;
+      buildPhases = (
+        1D6058960D05DD43006BFB54 /* Sources */,
+        1D6058970D05DD44006BFB54 /* Frameworks */,
+        1D6058980D05DD45006BFB54 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = "RAMFlavorApp";
+      productName = "RAMFlavorApp";
+      productReference = 1D6058990D05DD46006BFB54 /* RAMFlavorApp.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXSourcesBuildPhase section */
+    1D6058960D05DD43006BFB54 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1D60589A0D05DD47006BFB54 /* RAMFlavorApp.swift in Sources */,
+        1D60589B0D05DD48006BFB54 /* ContentView.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    1D6058970D05DD44006BFB54 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    1D6058980D05DD45006BFB54 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1D60589D0D05DD4A006BFB54 /* Info.plist in Resources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXBuildFile section */
+    1D60589A0D05DD47006BFB54 /* RAMFlavorApp.swift in Sources */ = { isa = PBXBuildFile; fileRef = 1D60589E0D05DD4B006BFB54 /* RAMFlavorApp.swift */; };
+    1D60589B0D05DD48006BFB54 /* ContentView.swift in Sources */ = { isa = PBXBuildFile; fileRef = 1D60589F0D05DD4C006BFB54 /* ContentView.swift */; };
+    1D60589D0D05DD4A006BFB54 /* Info.plist in Resources */ = { isa = PBXBuildFile; fileRef = 1D6058A10D05DD4E006BFB54 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    1D6058990D05DD46006BFB54 /* RAMFlavorApp.app */ = { isa = PBXFileReference; lastKnownFileType = "wrapper.application"; name = "RAMFlavorApp.app"; path = "RAMFlavorApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+    1D60589E0D05DD4B006BFB54 /* RAMFlavorApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RAMFlavorApp.swift; path = RAMFlavorApp.swift; sourceTree = "<group>"; };
+    1D60589F0D05DD4C006BFB54 /* ContentView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    1D6058A10D05DD4E006BFB54 /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+    1D6058920D05DD3F006BFB54 = {
+      isa = PBXGroup;
+      children = (
+        1D6058A20D05DD4F006BFB54 /* RAMFlavorApp */,
+        1D6058930D05DD40006BFB54 /* Products */,
+      );
+      path = "";
+      sourceTree = "<group>";
+    };
+    1D6058A20D05DD4F006BFB54 /* RAMFlavorApp */ = {
+      isa = PBXGroup;
+      children = (
+        1D60589E0D05DD4B006BFB54 /* RAMFlavorApp.swift */,
+        1D60589F0D05DD4C006BFB54 /* ContentView.swift */,
+        1D6058A10D05DD4E006BFB54 /* Info.plist */,
+      );
+      path = "";
+      sourceTree = "<group>";
+    };
+    1D6058930D05DD40006BFB54 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        1D6058990D05DD46006BFB54 /* RAMFlavorApp.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXBuildRule section */
+/* End PBXBuildRule section */
+
+/* Begin XCBuildConfiguration section */
+    1D6058910D05DD3E006BFB54 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = "";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        MACOSX_DEPLOYMENT_TARGET = 10.15;
+      };
+      name = Debug;
+    };
+    1D6058950D05DD42006BFB54 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Info.plist;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        MACOSX_DEPLOYMENT_TARGET = 10.15;
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    1D6058950D05DD42006BFB54 /* Build configuration list for PBXNativeTarget "RAMFlavorApp" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D6058910D05DD3E006BFB54 /* Debug */,
+        1D6058950D05DD42006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1D6058910D05DD3E006BFB54 /* Build configuration list for PBXProject */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D6058910D05DD3E006BFB54 /* Debug */,
+        1D6058950D05DD42006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+
+  };
+  rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}
